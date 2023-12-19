@@ -9,11 +9,10 @@ const Form = ({ newLocation }) => {
         if (city === '' || !city) return;
         newLocation(city);
     };
-
     return (
         <form onSubmit={onSubmit} className="w-1/4 mx-auto mt-20">
             <div className="mb-4">
-                <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="city">
+                <label className="block text-gray-700 text-xl font-bold mb-2" htmlFor="city">
                     Ciudad
                 </label>
                 <input
