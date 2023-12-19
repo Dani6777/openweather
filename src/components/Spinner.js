@@ -1,14 +1,14 @@
 import React from "react";
-import '../assets/css/Spinner.css'
+import '../assets/css/Spinner.css';
 
-const Spinner = () =>{
-    return(
-        <div class="lds-heart">
-            <div></div>
+const Spinner = () => {
+    return (
+        <div className="flex items-center justify-center min-h-screen">
+            <div className="lds-heart">
+                <div></div>
+            </div>
         </div>
     );
 }
 
 export default Spinner;
-
-
